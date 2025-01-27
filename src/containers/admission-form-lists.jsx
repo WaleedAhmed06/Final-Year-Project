@@ -57,7 +57,7 @@ const AdmissionFormList = () => {
                   <button
                     className={`${
                       row.offerLetterAmount
-                        ? "bg-orange-500 text-white"
+                        ? "bg-green-500 text-white"
                         : "bg-red-500 text-white"
                     } px-3 py-1 rounded hover:opacity-90`}
                   >
@@ -82,12 +82,12 @@ const AdmissionFormList = () => {
                   {row.studentProvince}
                 </td>
                 <td className="border border-gray-300 px-4 py-2">
-                  <button className="bg-orange-500 text-white px-3 py-1 rounded hover:bg-orange-600">
+                  <button className="bg-green-500 text-white px-3 py-1 rounded hover:bg-green-600">
                     Print
                   </button>
                 </td>
                 <td className="border border-gray-300 px-4 py-2">
-                  <button className="bg-orange-500 text-white px-3 py-1 rounded hover:bg-orange-600">
+                  <button className="bg-green-500 text-white px-3 py-1 rounded hover:bg-green-600">
                     Reset Password
                   </button>
                 </td>

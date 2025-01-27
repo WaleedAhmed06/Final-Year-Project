@@ -111,7 +111,7 @@ const QualificationInfo = () => {
       {/* Qualification Table */}
       <div className="overflow-x-auto mb-6">
         <table className="min-w-full border border-gray-300 text-sm text-left">
-          <thead className="bg-orange-500 text-white">
+          <thead className="bg-green-500 text-white">
             <tr>
               <th className="px-4 py-2">Qualification</th>
               <th className="px-4 py-2">Subject</th>

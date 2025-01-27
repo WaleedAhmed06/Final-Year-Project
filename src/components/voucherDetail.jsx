@@ -38,7 +38,7 @@ const VoucherDetail = () => {
       <div className="overflow-x-auto">
         <table className="min-w-full border-collapse border border-gray-200">
           <thead>
-            <tr className="bg-orange-400 text-white">
+            <tr className="bg-green-400 text-white">
               <th className="p-3 border">Voucher No</th>
               <th className="p-3 border">Account Title</th>
               <th className="p-3 border">Account</th>
@@ -76,7 +76,7 @@ const VoucherDetail = () => {
                 <td className="p-3 border text-center">
                   <button
                     onClick={() => handlePrint(voucher.voucherNo)}
-                    className="text-green-600 hover:text-green-800"
+                    className="text-red-600 hover:text-red-800 font-bold"
                   >
                     Print
                   </button>

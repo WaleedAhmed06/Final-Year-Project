@@ -91,7 +91,7 @@ const ProgramPreferences = () => {
 
         {/* Submit Button */}
         <div className="col-span-1 sm:col-span-2 lg:col-span-3 flex justify-end">
-          <button className="px-4 py-2 bg-orange-500 text-white rounded-md shadow hover:bg-orange-600">
+          <button className="px-4 py-2 bg-green-500 text-white rounded-md shadow hover:bg-green-600">
             Submit
           </button>
         </div>

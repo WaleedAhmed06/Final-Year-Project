@@ -56,7 +56,7 @@ const ChangePassword = () => {
           />
         </div>
         <div className="mt-4">
-          <button className="w-full bg-orange-500 text-white py-2 px-4 rounded">Change Password</button>
+          <button className="w-full bg-green-500 text-white py-2 px-4 rounded">Change Password</button>
         </div>
       </form>
     </div>
